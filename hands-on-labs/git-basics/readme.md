@@ -1,4 +1,6 @@
-# GitHub Basics
+# Exercise: Git and GitHub Basics
+
+The goal of this exercise is to recap the most important Git basics.
 
 ## Create Local Repository
 
@@ -23,12 +25,15 @@ git status
 git add .
 git commit --message "Fix a, add b"
 git log
+echo Local config > some.config
+echo *.config > .gitignore
+git status
 ```
 
 ## Use Commit History
 
 ```bash
-git checkout [revision] .
+git checkout [revision]
 git status
 echo Hello Moon > a.txt
 git status
@@ -77,6 +82,12 @@ git merge newFeature
   * Include *readme.md* and license file
 * Clone repository
 * Add a file locally and commit your changes
+* List remotes: `git remote`
+* Get remote URL: `git remote get-url origin`
 * Push changes using `git push`
 * Follow [Set up git](https://help.github.com/articles/set-up-git/) to configure your Git client
-* Use a graphical client to access GitHub repository
+* Use a GUI client to access GitHub repository
+
+## GitHub Flow
+
+
