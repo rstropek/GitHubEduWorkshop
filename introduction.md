@@ -52,6 +52,7 @@ General topics about GitHub as a company
 
 * Use an **alias** (aka pseudonym) if you do not want to reveal your real name
   * Read more about how to [keep your email address private](https://help.github.com/articles/about-commit-email-addresses/)
+  * GitHub-provided *no-reply* email address (*ID+username@users.noreply.github.com*)
 * Teach your students the mechanism of staying private so that they have a choice
 * Make your students aware of the risks of public repositories
   * Publishing secrets (e.g. passwords, API keys)
