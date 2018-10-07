@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Computer Science Exercise</title>
+
+    <script src="index.js" defer></script>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 10px;
+            max-width: 400px;
+        }
+
+        .error {
+            color: red;
+        }
+
+        .flex {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .flex li {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .flex > li > label, .flex li p {
+            flex: 1 0 120px;
+            max-width: 120px;
+            margin-left: 0;
+        }
+ 
+        .flex > li > label + * {
+            flex: 1 0 220px;
+        }
+
+        .flex > li:not(:last-child) {
+            margin-bottom: 10px;
+        }
+
+        .flex li button {
+            margin-left: auto;
+            padding: 8px 16px;
+        }
+
+        .flex li input, .flex li select {
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Calculator Exercise</h1>
+
+    <h2>Parameters</h2>
+
+    <form>
+        <ul class="flex">
+            <li>
+                <label for="parameter1">Parameter 1</label>
+                <input type="number" id="parameter1" placeholder="Enter the first parameter here">
+            </li>
+            <li>
+                <label for="parameter2">Parameter 2</label>
+                <input type="number" id="parameter2" placeholder="Enter the second parameter here">
+            </li>
+            <li>
+                <label for="operation">Operation</label>
+                <select id="operation">
+                    <option value="add">Add</option>
+                    <option value="div">Division</option>
+                </select>
+            </li>
+            <li>
+                <button type="button" onclick="calculate()">Calculate</button>
+            </li>
+        </ul>
+    </form>
+
+    <div class="error" id="error-area" hidden>
+        The parameters you entered are invalid. Please correct your input.
+    </div>
+
+    <div id="result-area" hidden>
+        <h2>Result</h2>
+
+        <p>The result is <span id="result"></span>.</p>
+    </div>
+</body>
+
+</html>
