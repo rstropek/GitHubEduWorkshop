@@ -1,6 +1,6 @@
-# Basic Concepts
+# Accounts
 
-Fundamental concepts and principles of GitHub
+User accounts and organizations
 
 
 ## User vs. Organization
@@ -21,4 +21,3 @@ Fundamental concepts and principles of GitHub
 * Create an organization
 * Invite a colleague into your organization ([read more...](https://help.github.com/articles/inviting-users-to-join-your-organization/))
 * Ask a colleague to invite you into an organization
-

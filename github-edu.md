@@ -63,3 +63,8 @@ What is GitHub Education?
 * Demo: One of Rainer's assignments
 
 
+## Exercise
+
+* [*GitHub Classroom* exercise](https://github.com/rstropek/htl-mobile-computing/blob/master/hands-on-labs/classroom)
+* Real-world example (by Rainer): Homework assignment (public)
+* Real-world example (by Rainer): Exam assignment (private)

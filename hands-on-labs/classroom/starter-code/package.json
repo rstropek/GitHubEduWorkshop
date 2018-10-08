@@ -1,0 +1,14 @@
+{
+  "name": "js-assignment",
+  "version": "1.0.0",
+  "description": "JavaScript Exercise",
+  "main": "math.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "author": "Rainer Stropek",
+  "license": "MIT",
+  "devDependencies": {
+    "jasmine": "^3.2.0"
+  }
+}
