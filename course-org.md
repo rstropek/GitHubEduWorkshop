@@ -30,21 +30,22 @@ Effiziente Nutzung von GitHub zur Gestaltung des Programmierunterrichts
 | 09:00 - 10:30 | Introduction, GitHub overview and general questions |
 | 11:00 - 12:30 | Git fundamentals recap, GitHub flow, Markdown       |
 | 13:30 - 15:00 | Hands-on lab [*GitHub Flow* in student projects](https://github.com/rstropek/htl-mobile-computing/blob/master/hands-on-labs/github-flow) |
-| 15:30 - 17:00 | GitHub Classroom fundamentals                       |
+| 15:30 - 17:00 | Open discussion, GitHub Classroom fundamentals      |
 
 
 ## Schedule Day 2
 
 |   Time Slot   |                   Topic                   |
 | :-----------: | ----------------------------------------- |
-| 09:00 - 10:30 | Recap day 1 (hands-on lab)                |
-| 11:00 - 12:30 | GitHub Pages fundamentals                 |
-| 13:30 - 15:00 | Advanced GitHub Pages (Jekyll, Reveal.js) |
+| 09:00 - 10:30 | Recap day 1                               |
+| 11:00 - 12:30 | [GitHub Classroom hands-on lab](https://github.com/rstropek/GitHubEduWorkshop/tree/master/hands-on-labs/classroom) |
+| 13:30 - 15:00 | GitHub Pages                              |
 | 15:30 - 17:00 | Open discussion, various topics, closing  |
 
 
 ## Course Material
 
+* [http://bit.ly/sem-ghedu](http://bit.ly/sem-ghedu)
 * [Open in browser](https://rstropek.github.io/GitHubEduWorkshop)
 * [Get printable version](https://rstropek.github.io/GitHubEduWorkshop?print-pdf)
 * [Get source](https://github.com/rstropek/GitHubEduWorkshop)
