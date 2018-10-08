@@ -23,6 +23,8 @@ How to work with Git and GitHub...
   * [GitHub Desktop](https://desktop.github.com/)
   * [Sourcetree](https://www.atlassian.com/software/sourcetree)
   * [Git support in VSCode](https://code.visualstudio.com/docs/editor/versioncontrol#_git-support)
+* Other tools
+  * [gitignore.io](https://www.gitignore.io/)
 
 
 ## What You Have to Know
@@ -69,6 +71,6 @@ How to work with Git and GitHub...
 
 ## Exercise
 
-* [*Git Basics* exercise](https://github.com/rstropek/htl-mobile-computing/blob/master/hands-on-labs/git-basics)
-* [*GitHub Flow* in student projects](https://github.com/rstropek/htl-mobile-computing/blob/master/hands-on-labs/github-flow) hands-on lab
+* [*Git Basics* exercise](https://github.com/rstropek/GitHubEduWorkshop/blob/master/hands-on-labs/git-basics)
+* [*GitHub Flow* in student projects](https://github.com/rstropek/GitHubEduWorkshop/blob/master/hands-on-labs/github-flow) hands-on lab
 * Real-world example (by Rainer): Lightning talk dates in course calendar
