@@ -65,6 +65,6 @@ What is GitHub Education?
 
 ## Exercise
 
-* [*GitHub Classroom* exercise](https://github.com/rstropek/htl-mobile-computing/blob/master/hands-on-labs/classroom)
+* [*GitHub Classroom* exercise](https://github.com/rstropek/GitHubEduWorkshop/blob/master/hands-on-labs/classroom)
 * Real-world example (by Rainer): Homework assignment (public)
 * Real-world example (by Rainer): Exam assignment (private)

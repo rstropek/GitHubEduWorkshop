@@ -29,7 +29,7 @@ Effiziente Nutzung von GitHub zur Gestaltung des Programmierunterrichts
 | :-----------: | --------------------------------------------------- |
 | 09:00 - 10:30 | Introduction, GitHub overview and general questions |
 | 11:00 - 12:30 | Git fundamentals recap, GitHub flow, Markdown       |
-| 13:30 - 15:00 | Hands-on lab [*GitHub Flow* in student projects](https://github.com/rstropek/htl-mobile-computing/blob/master/hands-on-labs/github-flow) |
+| 13:30 - 15:00 | Hands-on lab [*GitHub Flow* in student projects](https://github.com/rstropek/GitHubEduWorkshop/blob/master/hands-on-labs/github-flow) |
 | 15:30 - 17:00 | Open discussion, GitHub Classroom fundamentals      |
 
 
