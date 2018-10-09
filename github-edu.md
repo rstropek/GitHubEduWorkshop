@@ -1,4 +1,4 @@
-# GitHub Eduction
+# GitHub Education
 
 What is GitHub Education?
 
