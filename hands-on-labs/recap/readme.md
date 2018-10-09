@@ -20,7 +20,10 @@ Your job as a team is to build a repository with tips about Git and GitHub. The 
     * Filename: *staging-files.md*
     * Content:
       ```md
-      Pushing code to GitHub is a multi-stage process. The first step is to add changes to a local Git repository. This is done using the [*git add*](https://git-scm.com/docs/git-add) command. Example: `git add .` adds all changes of the local folder and subfolders.
+      Pushing code to GitHub is a multi-stage process.
+      The first step is to add changes to a local Git repository.
+      This is done using the [*git add*](https://git-scm.com/docs/git-add) command.
+      Example: `git add .` adds all changes of the local folder and subfolders.
       ```
 
 1. The *coordinator* has to merge the pull requests into the repository.
