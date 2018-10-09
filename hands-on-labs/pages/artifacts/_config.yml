@@ -1,0 +1,9 @@
+title: Hackathon Demo
+email: r.stropek@htl-perg.ac.at
+description: > # this means to ignore newlines until "baseurl:"
+  Sharpen your coding skills in this hackathon.
+baseurl: ""
+url: "https://rstropek.github.io/GitHubEduWorkshop-Jekyll"
+twitter_username: rstropek
+github_username:  rstropek
+baseurl: /GitHubEduWorkshop-Jekyll

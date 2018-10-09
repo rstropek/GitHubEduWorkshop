@@ -1,0 +1,12 @@
+---
+layout: default
+---
+
+{% assign sorted_pages = site.pages | sort:"title" %}
+{% for page in sorted_pages %}
+	{% if page.page-category == "session" %}
+        <h1 class="speaker-title">{{ page.title }}</h1>
+
+        {{ page.content | markdownify }}
+	{% endif %}
+{% endfor %}
