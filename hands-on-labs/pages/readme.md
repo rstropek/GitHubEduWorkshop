@@ -32,9 +32,9 @@ You want to setup a basic website. Your students should be able to contribute th
     * Sorting based on metadata with [`sort`](https://shopify.github.io/liquid/filters/sort/) (e.g. `{% assign sorted_pages = site.pages | sort:"title" %}`)
     * Use of [iterations](https://shopify.github.io/liquid/tags/iteration/) (e.g. `for`)
 
-1. For illustration purposes, we need a background image. Copy [artificats/images/Audience.jpg](artificats/images/Audience.jpg) into *images/Audience.jpg*.
+1. For illustration purposes, we need a background image. Copy [artifacts/images/Audience.jpg](artifacts/images/Audience.jpg) into *images/Audience.jpg*.
 
-1. In order to make our website look nice, we need a CSS file. Copy [artificats/styles/hackathon.css](artificats/styles/hackathon.css) into *styles/hackathon.css*.
+1. In order to make our website look nice, we need a CSS file. Copy [artifacts/styles/hackathon.css](artifacts/styles/hackathon.css) into *styles/hackathon.css*.
 
 ## Site Content
 
