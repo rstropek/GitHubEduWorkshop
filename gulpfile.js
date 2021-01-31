@@ -1,43 +1,59 @@
-const gulp = require('gulp');
+const { src, dest, parallel, series, watch } = require('gulp');
 const del = require('del');
 const path = require('path');
 const ssi = require('gulp-ssi');
-var merge = require('merge-stream');
+const lec = require('gulp-line-ending-corrector');
 
-gulp.task('clean', () => {
+function clean() {
   return del(['dist/**']);
-});
+}
 
-gulp.task('copy-reveal', () => {
+function copyReveal() {
   const rbase = 'node_modules/reveal.js';
-  return gulp.src(
+  return src(
           [
-            path.join(rbase, 'css/**/*.css'), path.join(rbase, 'js/**/*.js'),
+            path.join(rbase, 'dist/**/*'), path.join(rbase, 'js/**/*.js'),
             path.join(rbase, 'lib/**/*'), path.join(rbase, 'plugin/**/*')
           ],
           {base: rbase})
-      .pipe(gulp.dest('dist'));
-});
+      .pipe(dest('dist'));
+}
 
-gulp.task('copy-jquery', () => {
-  return gulp.src('node_modules/jquery/dist/jquery.min.js').pipe(gulp.dest('dist/js'));
-});
+function copyJquery() {
+  return src('node_modules/jquery/dist/jquery.min.js').pipe(dest('dist/js'));
+}
 
-gulp.task('copy-presentation', () => {
-  const html = gulp.src('*.html').pipe(ssi()).pipe(gulp.dest('dist'));
-  const css = gulp.src('*.css').pipe(gulp.dest('dist/css'));
-  const headers = gulp.src(['headers.js']).pipe(gulp.dest('dist/js'));
-  const images = gulp.src('images/**/*').pipe(gulp.dest('dist/images'));
-  const md = gulp.src(['*.md', '!README.md']).pipe(ssi()).pipe(gulp.dest('dist'));
-  return merge(html, css, headers, images, md);
-});
+function copyHtml() {
+  return src('*.html').pipe(ssi()).pipe(dest('dist'));
+}
 
-gulp.task('default', ['copy-presentation', 'copy-reveal', 'copy-jquery']);
+function copyCss() {
+  return src('*.css').pipe(dest('dist/css'));
+}
 
-gulp.task('watch', ['default'], () => {
-  var watcher = gulp.watch(['*.html', '*.css', 'headers.js', 'images/**/*', '*.md'], ['default']);
-  watcher.on('change', function(path, stats) {
-    console.log('File ' + path + ' was changed');
-  });
-  return watcher;
-});
+function copyHeaders() {
+  return src(['headers.js']).pipe(dest('dist/js'));
+}
+
+function copyImages(cb) {
+  return src('images/**/*').pipe(dest('dist/images'));
+}
+
+function copyMarkdown(cb) {
+  return src(['*.md', '!README.md'])
+    .pipe(ssi())
+    .pipe(lec())
+    .pipe(dest('dist'));
+}
+
+const defaultTasks = series(parallel(copyHtml, copyCss, copyHeaders, copyImages, copyMarkdown), copyReveal, copyJquery);
+
+exports.clean = clean;
+exports.default = defaultTasks;
+
+exports.watch = function() {
+  watch(
+      ['*.html', '*.css', 'headers.js', 'images/**/*', '*.md'],
+      { ignoreInitial: false },
+      defaultTasks);
+}
