@@ -13,7 +13,11 @@ The goal of this hands-on lab is to experience how a team of students can use Gi
 
 1. *Alice* creates a new repository in GitHub ([docs](https://help.github.com/articles/creating-a-repository-on-github/)). In this guide, we assume that the name of the new repository is *ghedu-github-flow*.
     1. Add a *.gitignore* file for *Node*
-    1. Add a license file for *MIT License*
+       * Tip: Use [gitignore.io](https://www.toptal.com/developers/gitignore) for that
+       * Alternative: [*gitignore*](https://marketplace.visualstudio.com/items?itemName=codezombiech.gitignore) extension to VSCode
+    2. Add a license file for *MIT License*
+       * Tip: Use [choosealicense.com](https://choosealicense.com/) for that
+       * Alternative: Add GitHub's [built-in *Add License* feature](https://docs.github.com/en/github/building-a-strong-community/adding-a-license-to-a-repository)
 
 1. *Alice* adds *Bob* as a [contributor](https://help.github.com/articles/inviting-collaborators-to-a-personal-repository/) to the project.
 
@@ -29,7 +33,7 @@ The goal of this hands-on lab is to experience how a team of students can use Gi
 
 1. *Fred* (the teacher) comments on Alice's issue *Create initial HTML page*: ``Think about adding [Bootstrap](http://getbootstrap.com/) to the site in order to make it look nice.``. Note that this is an example how teachers can interact with students in project planning.
 
-1. *Alice* responds to Fred's comment: ``We looked at *Bootstrap*. It is a great way to add a clean design to a website. Thank you for pointing us to it. We will definitely add it to our website in V2.``. She gives a *+1* to Fred's comment and copies a link to Fred's comment into the clipboard.
+1. *Alice* responds to Fred's comment: ``We looked at *Bootstrap*. It is a great way to add a clean design to a website. Thank you for pointing us to it. We will definitely add it to our website in V2.``. She gives a [*+1* 👍 reaction](https://github.blog/2016-03-10-add-reactions-to-pull-requests-issues-and-comments/) to Fred's comment and copies a link to Fred's comment into the clipboard.
 
 1. *Alice* create the following issue (will become issue *#2*):
     * Title: *Add Bootstrap to HTML page*
@@ -54,6 +58,7 @@ The goal of this hands-on lab is to experience how a team of students can use Gi
 1. *Alice* and *Bob* decide to meet tomorrow for a coding session. They want to work on milestone *V1*. They create a [task list](https://help.github.com/articles/about-task-lists/) for their coding session so that they do not forget what they wanted to do. So *Alice* creates the following issue  (will become issue *#5*):
     * Title: *Tasks for coding session*
     * Description:
+
       ```md
       * [ ] Create HTML page (#1)
       * [ ] Add parameter input form (#3)
@@ -100,19 +105,27 @@ The goal of this hands-on lab is to experience how a team of students can use Gi
 
 1. Open issue #5 (*Task List*) in GitHub and check *Add parameter input form* because it has been completed. As all items on the task list are completed, Alice and Bob decide to close the issue.
 
-## Test with *RawGit*
+## Test with *GitHub Pages*
 
-Alice and Bob would like to send Fred a link where he can test their work and give feedback. They use [*RawGit*](https://rawgit.com/) for that.
+Alice and Bob would like to send Fred a link where he can test their work and give feedback. They use [*GitHub Pages*](https://docs.github.com/en/github/working-with-github-pages/about-github-pages) for that.
 
-1. Open the file *index.html* in the repository *ghedu-github-flow* and copy it's URL into the clipboard
+1. Alice opens the settings of their project's GitHub repository
 
-1. Open [*RawGit*](https://rawgit.com/) and paste the URL of *index.html*. Copy the *development* URL that *RawGit* gives you into the clipboard.
+1. She scrolls down to the *GitHub Pages* section
 
-1. Open the development URL from *RawGit* in a new browser tab. You should see the website that Alice and Bob have created. They can now send this URL to Fred and ask him for feedback.
+1. Alice [chooses the *main* branch as the source](https://docs.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#choosing-a-publishing-source) for GitHub Pages
+
+1. Bob and Alice wait a minute or two until the setting becomes active
+
+1. They test their website using the URL assigned by GitHub Pages (something like *https://<your-user>.github.io/<your-repo-name>/*, e.g. *https://rstropek.github.io/static-website-experiment/*)
+
+1. They can now send this URL to Fred and ask him for feedback.
 
 ## *Fred*: Pull Request
 
 *Fred* looks at the code and recognizes that Alice and Bob created `input` elements with type `text`. They probably don't know yet that there is an [input type `number`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/number), too. He creates a pull request to propose this enhancement.
+
+Note: In this example, Fred has to create a fork because he isn't part of the project team. If Fred, the teacher, has been added to the project team, he would not need to create a fork. He could just use a branch and create the pull request from there.
 
 1. [Create a fork](https://help.github.com/articles/fork-a-repo/) of the repository *ghedu-github-flow*.
 
@@ -124,7 +137,7 @@ Alice and Bob would like to send Fred a link where he can test their work and gi
     * Title: *Fix input type*
     * Description: ``Did you know that there is an input type `number` in HTML? You input form could benefit from it. Here is a pull request that demonstrates the necessary code change.``
 
-1. *Alice* opens the repository *ghedu-github-flow* on GitHub and sees Fred's pull request. She looks at the content and decides that this is a really good tip. Se [merges the pull request](https://help.github.com/articles/merging-a-pull-request/).
+1. *Alice* opens the repository *ghedu-github-flow* on GitHub and sees Fred's pull request. She looks at the content and decides that this is a really good tip. She [merges the pull request](https://help.github.com/articles/merging-a-pull-request/).
 
 1. *Alice* refreshes her local clone of the repository: `git pull`
 
@@ -146,11 +159,11 @@ This time, *Alice* works at home without Bob. She wants to store her changes in 
 
 ## *Bob*: Merge *math* Branch
 
-1. Open the *math* branch in GitHub. Use the *Compare* feature to find out more about Alice's code changes.
+1. Open the *math* branch in GitHub. Use the *Compare* feature to find out more about Alice's code changes
 
 1. Open the graphical Git client and pull changes
 
-1. Use the graphical Git client of your choice to merge the changes in the *math* branch into the *master* branch.
+1. Use the graphical Git client of your choice to merge the changes in the *math* branch into the *master* branch
 
 ## *Fred*: Report a Bug
 
@@ -161,6 +174,7 @@ This time, *Alice* works at home without Bob. She wants to store her changes in 
 1. *Fred* creates the following issue (will become issue *#6*):
     * Title: *Division by Zero*
     * Description:
+
       ```md
       Division by zero reports an invalid result.
 
