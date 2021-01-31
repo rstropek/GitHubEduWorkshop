@@ -30,7 +30,7 @@ a {
 }
 
 .jumbotron-pro {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/GitHubEduWorkshop-Jekyll/images/Audience.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/Audience.jpg);
     border-bottom: solid 1px #0094ff;
 }
 

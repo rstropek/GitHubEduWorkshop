@@ -12,7 +12,7 @@ You want to setup a basic website. Your students should be able to contribute th
 
 1. Create a new repository *ghedu-pages-jekyll*
 
-1. In your repository's *Settings*, [activate GitHub Pages for the *master* branch](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/)
+1. In your repository's *Settings*, [activate GitHub Pages for the *main* branch](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/)
 
 ## Site Configuration
 
@@ -82,4 +82,4 @@ Note that you have to have *Docker* installed on your computer (e.g. *Docker for
 
 1. GitHub will run Jekyll for you behind the scenes.
 
-1. Open [https://your-github-user.github.io/your-github-repo/index.html](https://your-github-user.github.io/your-github-repo/index.html) and see your site in action
+1. Open [https://your-github-user.github.io/your-github-repo/index.html](https://your-github-user.github.io/your-github-repo/index.html) and see your site in action. Note that it might take a minute or two until the site becomes available.

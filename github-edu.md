@@ -8,9 +8,9 @@ What is GitHub Education?
 * [Student Developer Pack](https://education.github.com/pack)
 * Many promotional offerings - discuss that with your students
 * Many very useful services for free for students:
-  * *GitHub*: Unlimited private repositories
-  * *SendGrid*: 15k free emails/month
+  * Cloud credits (e.g. DigitalOcean, Azure, Heroku)
   * *Travis CI*: Free private builds
+  * Etc.
 
 
 ## Teachers
@@ -29,23 +29,23 @@ What is GitHub Education?
   * Collect assignments on GitHub
   * [Classroom Assistant](https://classroom.github.com/assistant/): Download all assignments in one click
 * Technology
-  * [Open source](https://github.com/education/classroom) automation tools on top of GitHub APIs
-  * Written in *Ruby on Rails*
-  * Available online on [https://classroom.github.com/](https://classroom.github.com/), custom version possible
+  * Automation tools on top of GitHub APIs
+    * Previously separate open source tool
+    * Now developed as part of regular GitHub
+  * Available online on [https://classroom.github.com/](https://classroom.github.com/)
 
 
 ## Organizing Classrooms
 
-* [Create an organization](https://help.github.com/articles/creating-a-new-organization-from-scratch/) for each classroom
-* Discuss pros and cons for different strategies:
-  * One classroom/organization for everything
-  * One classroom/organization per year
-  * One classroom/organization per class
+* [Create organizations](https://help.github.com/articles/creating-a-new-organization-from-scratch/)
+  * E.g. one organization for each school you teach
+* [Create classrooms](https://docs.github.com/en/education/manage-coursework-with-github-classroom/manage-classrooms#creating-a-classroom) inside organizations
+  * E.g. one classroom for each class you teach
+  * Use private repositories for e.g. exams
 * Optional classroom roster
   * Assign student names to GitHub accounts
   * Beware of privacy issues
-* Optionally: Get unlimited free private repositories by [joining GitHub Education](https://education.github.com/discount_requests/new)
-  * Use private repositories for e.g. exams
+  * [Integration with *Learning Management Systems*](https://docs.github.com/en/education/manage-coursework-with-github-classroom/connect-a-learning-management-system-to-github-classroom) (e.g. *Moodle*) available. If have not tried it yet.
 * Demo: Rainer's GitHub classrooms
 
 
@@ -55,6 +55,7 @@ What is GitHub Education?
 * *Title* and *prefix* for generated repository names
 * *Public* or *private*
 * GitHub repository for *starter code*
+  * Don't forget to make it a [*Template Repository*](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-template-repository)
 * *Deadline*
   * Commits are possible after deadline
   * Never trust Git history as it can be rewritten
@@ -66,5 +67,6 @@ What is GitHub Education?
 ## Exercise
 
 * [*GitHub Classroom* exercise](https://github.com/rstropek/GitHubEduWorkshop/blob/master/hands-on-labs/classroom)
+* [*GitHub Autograding and Online IDE* exercise](https://github.com/rstropek/GitHubEduWorkshop/blob/master/hands-on-labs/autograding)
 * Real-world example (by Rainer): Homework assignment (public)
 * Real-world example (by Rainer): Exam assignment (private)

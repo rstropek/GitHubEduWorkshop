@@ -14,6 +14,7 @@ Hosting static content on GitHub...
   * `http(s)://<username | organization-name>.github.io/<projectname>`
   * `http(s)://<organization-name>.github.io/` if project has same name as organization
   * [More about custom domain names](https://help.github.com/articles/using-a-custom-domain-with-github-pages/)
+  * SSL/TLS with custom domains is now possible (managed certificates)
 * **Note:** GitHub Pages are **always public**, even for private repositories
 
 
@@ -21,7 +22,7 @@ Hosting static content on GitHub...
 
 * Repository settings
 * Source
-  * *master* branch
+  * *main* branch
   * *gh-pages* branch
   * *docs* folder in *master* branch
 * [Read more in docs](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/)
@@ -30,6 +31,8 @@ Hosting static content on GitHub...
 ## Jekyll
 
 * Static website generator written in Ruby
+  * Rather slow
+  * Consider [*Hugo*](https://gohugo.io/) as an alternative and use GitHub Pages only for hosting
 * [Liquid](https://shopify.github.io/liquid/) layout template language
 * Markdown content
 * Many plugins (including blog)
