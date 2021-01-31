@@ -41,6 +41,6 @@ Hosting static content on GitHub...
 
 ## Exercise
 
-* [*GitHub Classroom* exercise](https://github.com/rstropek/GitHubEduWorkshop/blob/master/hands-on-labs/pages)
-* Real-world example (by Rainer): Global Azure Bootcamp 2018
-* Real-world example (by Rainer): Software Architects Blog
+* [*GitHub Pages* with *Jekyll* exercise](https://github.com/rstropek/GitHubEduWorkshop/blob/master/hands-on-labs/pages)
+* Real-world example (by Rainer): [Global Azure Bootcamp 2020](https://github.com/coding-club-linz/global-azure-bootcamp-2020)
+* Real-world example (by Rainer): [Software Architects Blog](https://github.com/software-architects/software-architects-website)

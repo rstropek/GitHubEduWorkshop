@@ -27,20 +27,21 @@ Effiziente Nutzung von GitHub zur Gestaltung des Programmierunterrichts
 
 |   Time Slot   |                        Topic                        |
 | :-----------: | --------------------------------------------------- |
-| 09:00 - 10:30 | Introduction, GitHub overview and general questions |
-| 11:00 - 12:30 | Git fundamentals recap, GitHub flow, Markdown       |
-| 13:30 - 15:00 | Hands-on lab [*GitHub Flow* in student projects](https://github.com/rstropek/GitHubEduWorkshop/blob/master/hands-on-labs/github-flow) |
-| 15:30 - 17:00 | Open discussion, GitHub Classroom fundamentals      |
+| 08:00 - 09:30 | Introduction, GitHub overview and general questions |
+| 10:00 - 12:00 | Git fundamentals recap, GitHub flow, Markdown       |
+| 12:45 - 14:15 | Hands-on lab [*GitHub Flow* in student projects](https://github.com/rstropek/GitHubEduWorkshop/blob/master/hands-on-labs/github-flow) |
+| 14:45 - 16:00 | Open discussion, GitHub Classroom fundamentals      |
 
 
 ## Schedule Day 2
 
 |   Time Slot   |                   Topic                   |
 | :-----------: | ----------------------------------------- |
-| 09:00 - 10:30 | Recap day 1                               |
-| 11:00 - 12:30 | [GitHub Classroom hands-on lab](https://github.com/rstropek/GitHubEduWorkshop/tree/master/hands-on-labs/classroom) |
-| 13:30 - 15:00 | GitHub Pages                              |
-| 15:30 - 17:00 | Open discussion, various topics, closing  |
+| 08:00 - 08:30 | Recap day 1                               |
+| 08:30 - 10:00 | [GitHub Classroom hands-on lab](https://github.com/rstropek/GitHubEduWorkshop/tree/master/hands-on-labs/classroom)     |
+| 10:30 - 12:00 | [GitHub Autograding hands-on lab](https://github.com/rstropek/GitHubEduWorkshop/tree/master/hands-on-labs/autograding) |
+| 12:45 - 14:15 | GitHub Pages (incl. [hands-on lab](https://github.com/rstropek/GitHubEduWorkshop/tree/master/hands-on-labs/pages))     |
+| 14:45 - 16:00 | Open discussion, various topics, closing  |
 
 
 ## Course Material
