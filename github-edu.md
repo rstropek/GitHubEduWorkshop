@@ -23,7 +23,7 @@ What is GitHub Education?
 
 ## GitHub Classroom
 
-* Functionalty
+* Functionality
   * Automates repository creation and access control
   * Distribute starter code
   * Collect assignments on GitHub
@@ -38,9 +38,9 @@ What is GitHub Education?
 
 * [Create an organization](https://help.github.com/articles/creating-a-new-organization-from-scratch/) for each classroom
 * Discuss pros and cons for different strategies:
-  * One classromm/organization for everything
-  * One classromm/organization per year
-  * One classromm/organization per class
+  * One classroom/organization for everything
+  * One classroom/organization per year
+  * One classroom/organization per class
 * Optional classroom roster
   * Assign student names to GitHub accounts
   * Beware of privacy issues
