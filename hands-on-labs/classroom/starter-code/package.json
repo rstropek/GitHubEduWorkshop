@@ -9,6 +9,6 @@
   "author": "Rainer Stropek",
   "license": "MIT",
   "devDependencies": {
-    "jasmine": "^3.2.0"
+    "jasmine": "^3.6.4"
   }
 }
