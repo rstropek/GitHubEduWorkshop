@@ -7,19 +7,19 @@ Agenda, schedule, organizational issues
 
 Effiziente Nutzung von GitHub zur Gestaltung des Programmierunterrichts
 
-<small>GitHub ist eine, wenn nicht die bekannteste Plattform f&uuml;r Open Source Software. Weniger bekannt ist, dass GitHub eine Menge Funktionen enth&auml;lt, die die Plattform zu einem hervorragenden Werkzeug f&uuml;r den Programmierunterricht macht. In diesem Seminar zeigt Rainer Stropek anhand von Praxisbeispielen aus seinem eigenen Unterricht an der HTL Perg, was GitHub bietet. Er geht unter anderem ein auf die Abwicklung von Programmierhaus&uuml;bungen mit GitHub Classroom, erkl&auml;rt die kostenfreien GitHub-Angebote f&uuml;r Studierende und Lehrer, demonstriert das kostenlose Hosting von Webseiten (z.B. f&uuml;r Anleitungen, Pr&auml;sentationen etc.) mit GitHub Pages und vieles mehr. Rainer setzt bei der Schulung grundlegendes Wissen &uuml;ber Git und HTML voraus. Man muss aber kein Profi in diesen Bereichen sein, um von dem Seminar profitieren zu k&ouml;nnen.</small>
+<small>GitHub ist eine, wenn nicht die bekannteste Plattform für Open Source Software. Weniger bekannt ist, dass GitHub eine Menge Funktionen enthält, die die Plattform zu einem hervorragenden Werkzeug für den Programmierunterricht macht. In diesem Seminar zeigt Rainer Stropek anhand von Praxisbeispielen aus seinem eigenen Unterricht an der HTL Perg, was GitHub bietet. Er geht unter anderem ein auf die Abwicklung von Programmierhausübungen mit GitHub Classroom, erklärt die kostenfreien GitHub-Angebote für Studierende und Lehrer, demonstriert das kostenlose Hosting von Webseiten (z.B. für Anleitungen, Präsentationen etc.) mit GitHub Pages und vieles mehr. Rainer setzt bei der Schulung grundlegendes Wissen über Git und HTML voraus. Man muss aber kein Profi in diesen Bereichen sein, um von dem Seminar profitieren zu können.</small>
 
 
 ## Trainer
 
 * Rainer Stropek
   * *software architects gmbh*
-  * Part-time teacher at HTL Perg
+  * Part-time teacher at HTL Leonding (previously Perg)
   * [https://rainerstropek.me/](https://rainerstropek.me/) (with links to social media)
-  * *Coding Club Linz* and [CoderDojo Linz](http://coderdojo-linz.github.io/)
+  * *Coding Club Linz* and [CoderDojo Linz](https://linz.coderdojo.net)
 * Contact
   * [rainer@software-architects.at](mailto:rainer@software-architects.at)
-  * [r.stropek@htl-perg.ac.at](mailto:r.stropek@htl-perg.ac.at)
+  * [r.stropek@htl-leonding.ac.at](mailto:r.stropek@htl-perg.ac.at)
   * [@rstropek](https://twitter.com/rstropek)
 
 
@@ -47,7 +47,6 @@ Effiziente Nutzung von GitHub zur Gestaltung des Programmierunterrichts
 
 * [http://bit.ly/sem-ghedu](http://bit.ly/sem-ghedu)
 * [Open in browser](https://rstropek.github.io/GitHubEduWorkshop)
-* [Get printable version](https://rstropek.github.io/GitHubEduWorkshop?print-pdf)
 * [Get source](https://github.com/rstropek/GitHubEduWorkshop)
 
 > Everything is [MIT-licensed](https://opensource.org/licenses/MIT), so feel free  to use, copy, modify, merge, publish, or distribute it.
