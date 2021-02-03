@@ -1,4 +1,4 @@
-# Hands-on Lab: GitHub Flow
+# Hands-on Lab: GitHub-Flow
 
 The goal of this hands-on lab is to experience how a team of students can use GitHub to collaborate in a computer science project.
 
