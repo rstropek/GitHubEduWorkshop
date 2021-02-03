@@ -4,6 +4,7 @@ This repository contains material for the workshop on using GitHub for Computer 
 
 ## View Material
 
+* [Open in browser](https://rstropek.github.io/GitHubEduWorkshop){:target="_blank"}
 * [Open in browser](https://rstropek.github.io/GitHubEduWorkshop)
 * [Get printable version](https://rstropek.github.io/GitHubEduWorkshop?print-pdf)
 
