@@ -20,21 +20,21 @@ General topics about GitHub as a company
 
 ## What Does GitHub Offer?
 
-* Sourcecode management based on [Git](https://git-scm.com/)
-* Continuous integration (with [GitHub Actions](https://docs.github.com/en/actions))
-* Collaborate (e.g. user and team management, pull requests)
-* Project management (e.g. issues, milestones, project boards)
-* Documentation (e.g. *GitHub Pages*, wiki, code snippets in *gists*)
-* Educate
-* Hire (*GitHub Jobs*)
+* Sourcecode<!-- .element: class="fragment" --> management based on [Git](https://git-scm.com/)
+* Continuous<!-- .element: class="fragment" --> integration (with [GitHub Actions](https://docs.github.com/en/actions))
+* Collaboration<!-- .element: class="fragment" --> (e.g. user and team management, pull requests)
+* Project<!-- .element: class="fragment" --> management (e.g. issues, milestones, project boards)
+* Documentation<!-- .element: class="fragment" --> (e.g. *GitHub Pages*, wiki, code snippets in *gists*)
+* GitHub<!-- .element: class="fragment" --> *Classroom* for education
+* Hire<!-- .element: class="fragment" --> (*GitHub Jobs*)
 
 
 ## How Does GitHub Earn Money?
 
-* Free public **and private** repositories for everybody
-* Free CI/CD minutes for everybody
-* [Paid plans](https://github.com/pricing) for professional teams who need more resources
-* Generous [free offerings for education](https://education.github.com/)
+* Free<!-- .element: class="fragment" --> public **and private** repositories for everybody
+* Free<!-- .element: class="fragment" --> CI/CD minutes for everybody
+* Paid<!-- .element: class="fragment" --> [plans](https://github.com/pricing) for professional teams who need more resources
+* Generous<!-- .element: class="fragment" --> [free offerings for education](https://education.github.com/)
 
 
 ## Where Can I Learn More?
@@ -50,7 +50,7 @@ General topics about GitHub as a company
 ## What About Security and Privacy?
 
 * [GitHub Privacy Statement](https://help.github.com/articles/github-privacy-statement/)
-* Data **is** stored in the United States
+* Data<!-- .element: class="fragment" --> **is** stored in the United States
   * See also [GitHub's global privacy practices](https://help.github.com/articles/github-privacy-statement/#githubs-global-privacy-practices)
   * GitHub relies on the European Commission-approved [Standard Contractual Clauses](https://ec.europa.eu/info/law/law-topic/data-protection/international-dimension-data-protection/standard-contractual-clauses-scc_en) (*SCCs*)
   * Compliant with the *General Data Protection Regulation* (GDPR) ([details](https://docs.github.com/en/github/site-policy/github-privacy-statement#our-legal-bases-for-processing-information))
