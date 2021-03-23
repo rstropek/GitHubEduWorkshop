@@ -1,4 +1,4 @@
-# Skills
+# Skills!
 
 Why Git and GitHub? What Skills Can Students Acquire?
 
